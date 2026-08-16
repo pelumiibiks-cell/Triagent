@@ -1,0 +1,8 @@
+# Python 3.13. Install with:  pip install -r requirements.txt
+
+# Pinned to the versions this solution was developed and validated against.
+
+google-genai==2.18.1        # Gemini SDK (NOT google-generativeai, which is deprecated)
+python-dotenv==1.2.2        # loads GEMINI_API_KEY from .env into os.environ
+faster-whisper==1.2.1       # local voice-note transcription; no API key, no quota
+
