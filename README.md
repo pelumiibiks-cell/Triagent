@@ -1,4 +1,4 @@
-# Message Notification Router
+# TRIAGENT
 
 Routes every incoming WhatsApp message in `dataset/messages.csv` to one of
 `notify`, `digest`, or `mute`, personalised to the receiving user, and writes
